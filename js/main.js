@@ -15,6 +15,8 @@ $("#values-form").submit((e) => {
             addNewRow(data);
         }
     });
+
+    window.location.href = 'table.html';
 })
 
 function setButtonDisabled(isDisabled){
